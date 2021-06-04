@@ -19,7 +19,7 @@ my $bowtie   = 'bowtie';
 my $samtools = 'samtools';
 my $bedtools = 'bedtools';
 my $pTscript = "proTRAC_2.4.4.pl";
-my $p_val = 0.0055;
+my $p_val = 0.01;
 my $p_opt = "-clsize 5000 -pimin 23 -pimax 31 -1Tor10A 0.5 -1Tand10A 0.33 -clstrand 0.0 -clsplit 1.0 -distr 5.0-90.0 -spike 50-1000 -nomotif -pdens $p_val";
 # Test dependencies
 my $depends = '';
